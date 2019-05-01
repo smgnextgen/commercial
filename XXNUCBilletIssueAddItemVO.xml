@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE ViewObject SYSTEM "jbo_03_01.dtd">
+
+<!-- $Header: XXNUCBilletIssueAddItemVO.xml 120.000000000.25308 2018-03-30 19:01:08Z ankit.sharma noship $ -->
+
+<ViewObject
+   Name="XXNUCBilletIssueAddItemVO"
+   BindingStyle="OracleName"
+   CustomQuery="true"
+   RowClass="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueAddItemVORowImpl"
+   ComponentClass="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueAddItemVOImpl"
+   UseGlueCode="false" >
+   <SQLQuery><![CDATA[
+select
+null	batch_id      ,
+null	batchstep_no  ,
+null	issue_qty     ,
+null	item_id       ,
+null  segment1      ,
+null	org_id        ,
+null	oprn_no       ,
+null	locator_id    ,
+null	subinv_code   ,
+null	uom           ,
+null	lot_no        ,
+null	batch_no      ,
+null	org_code          
+,null	locator_num 
+,null	actual_qty 
+, null description
+, null secUom
+, null sumQty
+, 'Y' contribute_to_yield
+from dual
+   ]]></SQLQuery>
+   <DesignTime>
+      <Attr Name="_isCodegen" Value="true" />
+      <Attr Name="_isExpertMode" Value="true" />
+      <Attr Name="_version" Value="10.1.3.43.6" />
+      <Attr Name="_codeGenFlag2" Value="Access|Coll|VarAccess" />
+   </DesignTime>
+   <ViewAttribute
+      Name="BatchId"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="BATCH_ID"
+      Expression="BATCH_ID"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="BatchstepNo"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="BATCHSTEP_NO"
+      Expression="BATCHSTEP_NO"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="IssueQty"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="ISSUE_QTY"
+      Expression="ISSUE_QTY"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="ItemId"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="ITEM_ID"
+      Expression="ITEM_ID"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Segment1"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="SEGMENT1"
+      Expression="SEGMENT1"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="OrgId"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="ORG_ID"
+      Expression="ORG_ID"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="OprnNo"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="OPRN_NO"
+      Expression="OPRN_NO"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LocatorId"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="LOCATOR_ID"
+      Expression="LOCATOR_ID"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="SubinvCode"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="SUBINV_CODE"
+      Expression="SUBINV_CODE"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Uom"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="UOM"
+      Expression="UOM"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LotNo"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="LOT_NO"
+      Expression="LOT_NO"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="BatchNo"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="BATCH_NO"
+      Expression="BATCH_NO"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="OrgCode"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="ORG_CODE"
+      Expression="ORG_CODE"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LocatorNum"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="LOCATOR_NUM"
+      Expression="LOCATOR_NUM"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="ActualQty"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="ACTUAL_QTY"
+      Expression="ACTUAL_QTY"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Description"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="DESCRIPTION"
+      Expression="DESCRIPTION"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Secuom"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="SECUOM"
+      Expression="SECUOM"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Sumqty"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="SUMQTY"
+      Expression="SUMQTY"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Add"
+      IsSelected="false"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="VIEW_ATTR"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Del"
+      IsSelected="false"
+      IsPersistent="false"
+      Type="java.lang.String"
+      ColumnType="VARCHAR2"
+      AliasName="VIEW_ATTR"
+      SQLType="VARCHAR" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="DetailView"
+      IsSelected="false"
+      IsPersistent="false"
+      Type="java.lang.Boolean"
+      ColumnType="NUMBER"
+      AliasName="VIEW_ATTR"
+      Passivate="true"
+      SQLType="BIT" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="ContributeToYield"
+      IsPersistent="false"
+      Precision="1"
+      Type="java.lang.String"
+      ColumnType="CHAR"
+      AliasName="CONTRIBUTE_TO_YIELD"
+      Expression="CONTRIBUTE_TO_YIELD"
+      SQLType="VARCHAR" >
+      <DesignTime>
+         <Attr Name="_DisplaySize" Value="1" />
+      </DesignTime>
+   </ViewAttribute>
+</ViewObject>

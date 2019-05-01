@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+
+<!-- $Header: XXNUCBilletIssueAM.xml 120.000000000.25308 2018-03-30 19:01:08Z ankit.sharma noship $ -->
+
+<AppModule
+   Name="XXNUCBilletIssueAM"
+   ComponentClass="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueAMImpl" >
+   <DesignTime>
+      <Attr Name="_isCodegen" Value="true" />
+      <Attr Name="_version" Value="10.1.3.43.6" />
+      <Attr Name="_deployType" Value="0" />
+   </DesignTime>
+   <ViewUsage
+      Name="XXNUCBilletIssueItemsLovVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.lov.server.XXNUCBilletIssueItemsLovVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueResourcesVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.poplist.server.XXNUCBilletIssueResourcesVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueAddItemVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueAddItemVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueBatchDetailsVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueBatchDetailsVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssuePieVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssuePieVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssuePPRVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssuePPRVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueLocatorLovVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.lov.server.XXNUCBilletIssueLocatorLovVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueItemLotLPNVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueItemLotLPNVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueLotLPNVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueLotLPNVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueBatchLotVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueBatchLotVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueLPNListingVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueLPNListingVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueOrgVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueOrgVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCViewSchVO1"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCViewSchVO" >
+   </ViewUsage>
+   <ViewUsage
+      Name="XXNUCBilletIssueFPCheckVO"
+      ViewObjectName="xxnuc.oracle.apps.inv.billetissue.server.XXNUCBilletIssueFPCheckVO" >
+   </ViewUsage>
+</AppModule>
